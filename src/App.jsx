@@ -5,7 +5,7 @@ function App() {
     fetch("https://www.strava.com/api/v3/athlete", {
       method: "GET",
       headers: {
-        Authorization: "Bearer 9abaa7d4245b66e1d82fe6f5576fb5c065035620"
+        Authorization: ""
       }
     })
     .then(response => response.json()).then(data => console.log(data))
